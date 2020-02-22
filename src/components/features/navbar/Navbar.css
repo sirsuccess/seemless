@@ -1,0 +1,21 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    width: 220px;
+    margin-right: 1.5em;
+    margin-top: 1em;
+}
+
+.fa-th {
+    font-size: 20px;
+    color: #9c9a9a;
+    cursor: pointer;
+}
+
+.fa-th:hover {
+    color: #757575;
+}
+
+/* #dbdbdb */
