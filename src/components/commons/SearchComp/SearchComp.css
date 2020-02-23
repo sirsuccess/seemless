@@ -1,0 +1,42 @@
+.SearchComp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+    width: 584px;
+    border: 1px solid #918c90;
+    font-size: 20px;
+    padding: 0.5em 1em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+}
+
+.SearchComp:hover {
+    /* border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0; */
+    border-color: rgba(223, 225, 229, 0);
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+/* .SearchComp~input:focus {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-color: rgba(223, 225, 229, 0);
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+} */
+
+.SearchComp:focus-within {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-color: rgba(223, 225, 229, 0);
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+.SearchComp input {
+    border: none;
+    width: 100%;
+    height: 100%;
+    outline-style: none;
+    padding: 0 0.5em;
+    font-size: 20px;
+}
