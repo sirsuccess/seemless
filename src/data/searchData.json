@@ -1,5 +1,4 @@
-[
-  {
+[{
     " name": "Animal Definition",
     "title": "animal | Definition, Types, & Facts | Britannica",
     "description": "Animal, (kingdom Animalia), any of a group of multicellular eukaryotic organisms (i.e., as distinct from bacteria, their deoxyribonucleic acid, or DNA, is contained in a membrane-bound nucleus). They are thought to have evolved independently from the unicellular eukaryotes.",
@@ -19,6 +18,27 @@
     "description": "Read National Geographic's latest stories about animals.",
     "url": "https://www.nationalgeographic.com/animals/",
     "category": "animal"
+  },
+  {
+    " name": "Animal Definition",
+    "title": "Animal | Definition of Animal by Merriam-Webster",
+    "description": "Animal definition is - any of a kingdom (Animalia) of living things including many-celled organisms and often many of the single-celled ones (such as ...",
+    "url": "https://www.merriam-webster.com/dictionary/animal",
+    "category": "animal"
+  },
+  {
+    " name": "Animal Definition",
+    "title": "Code.org: Learn computer science. Change the world.",
+    "description": "Every student in every school should have the opportunity to learn computer science. 40%. of U.S. students have accounts on Code.org · 20M. of our students ...‎ Sign up for Code.org·‎ View all projects...·‎Hour of Code·‎ Studio code.org ",
+    "url": "https://www.merriam-webster.com/dictionary/animal",
+    "category": "code"
+  },
+  {
+    " name": "Animal Definition",
+    "title": "Code.org: Learn computer science. Change the world.",
+    "description": "Every student in every school should have the opportunity to learn computer science. 40%. of U.S. students have accounts on Code.org · 20M. of our students ...‎ Sign up for Code.org·‎ View all projects...·‎Hour of Code·‎ Studio code.org ",
+    "url": "https://www.merriam-webster.com/dictionary/animal",
+    "category": "code"
   },
   {
     " name": "Animal Definition",
