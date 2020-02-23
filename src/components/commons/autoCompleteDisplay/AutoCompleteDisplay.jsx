@@ -6,8 +6,13 @@ import SearchIcon from "../SearchIcon";
 
 export default function AutoCompleteDisplay({
   showAutoComplete,
-  autoCompleteData
+  autoCompleteData,
+  moveToSearchPage
 }) {
+  const moveToSearchFun = () => {
+    moveToSearchPage();
+    return;
+  };
   return (
     <div
       className={
@@ -16,7 +21,7 @@ export default function AutoCompleteDisplay({
     >
       <ul>
         {autoCompleteData.map((item, index) => (
-          <li key={index}>
+          <li key={index} onClick={moveToSearchFun}>
             <span className="searchIcn">
               <SearchIcon />
             </span>
@@ -30,7 +35,6 @@ export default function AutoCompleteDisplay({
           text="I'm Feeling Lucky"
           bgColor="#f2f2f2"
           textColor="#4485f2"
-          //   borderColor="#dadce0"
         />
       </div>
     </div>

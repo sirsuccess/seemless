@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { withRouter } from "react-router-dom";
 
 import Search from "../../commons/SearchComp/SearchComp";
 import Logo from "../../commons/Logo";
@@ -6,69 +7,10 @@ import Button from "../../commons/button/SearchBtn";
 import Offer from "../../commons/offer/Offer";
 import AutoCompleteDisplay from "../../commons/autoCompleteDisplay/AutoCompleteDisplay";
 import searchData from "../../../data/searchData.json";
+import initialAutoCompleteData from "../../../data/initialData";
 import "./Body.css";
 
-export default function Body() {
-  const initialAutoCompleteData = [
-    {
-      name: "animal",
-      title: "animal Kingdom",
-      description: "",
-      url: "",
-      category: "animal"
-    },
-    {
-      name: "animal",
-      title: "animal Kingdom",
-      description: "",
-      url: "",
-      category: "animal"
-    },
-    {
-      name: "animal",
-      title: "animal Kingdom",
-      description: "",
-      url: "",
-      category: "animal"
-    },
-    {
-      name: "animal",
-      title: "animal Kingdom",
-      description: "",
-      url: "",
-      category: "animal"
-    },
-    {
-      name: "animal",
-      title: "animal Kingdom",
-      description: "",
-      url: "",
-      category: "animal"
-    },
-    {
-      name: "animal",
-      title: "animal Kingdom",
-      description: "",
-      url: "",
-      category: "animal"
-    },
-    {
-      name: "animal",
-      title: "animal Kingdom",
-      description: "",
-      url: "",
-      category: "animal"
-    },
-    {
-      name: "animal",
-      title: "animal Kingdom",
-      description: "",
-      url: "",
-      category: "animal"
-    }
-  ];
-  console.log("this is searchData", searchData);
-
+function Body({ history }) {
   const [showAutoComplete, setShowAutoComplete] = useState(false);
   const [autoCompleteData, setAutoCompleteData] = useState(
     initialAutoCompleteData
@@ -88,7 +30,6 @@ export default function Body() {
       }
       return;
     });
-    console.log("setAutoCompleteData", autoCompleteData);
 
     setAutoCompleteData(NewArr);
   };
@@ -103,6 +44,15 @@ export default function Body() {
     }
   }
 
+  const keyboardNavigation = () => "";
+
+  function moveToSearchPage() {
+    history.push({
+      pathname: "/search",
+      state: { data: "Data" }
+    });
+  }
+
   return (
     <div className="Body">
       <Logo />
@@ -114,6 +64,7 @@ export default function Body() {
       <AutoCompleteDisplay
         showAutoComplete={showAutoComplete}
         autoCompleteData={autoCompleteData}
+        moveToSearchPage={moveToSearchPage}
       />
       <div className="button-section">
         <Button text="Google Search" bgColor="#f2f2f2" textColor="#fff" />
@@ -128,3 +79,5 @@ export default function Body() {
     </div>
   );
 }
+
+export default withRouter(Body);
