@@ -4,12 +4,14 @@ import React from "react";
 
 export default function Logo({ LogoWidth }) {
   return (
-    <div
-      style={{
-        width: LogoWidth
-      }}
-    >
-      <img src="./googlelogo_color.png" alt="Google Logo" />
+    <div>
+      <img
+        style={{
+          width: LogoWidth
+        }}
+        src="./googlelogo_color.png"
+        alt="Google Logo"
+      />
     </div>
   );
 }
