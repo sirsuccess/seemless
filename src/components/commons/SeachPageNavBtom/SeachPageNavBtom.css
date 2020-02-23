@@ -1,0 +1,52 @@
+.SeachPageNavBtom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #5f6368;
+    width: 600px;
+    font-size: 16px;
+    margin-left: 5em;
+    position: sticky;
+    top: -1000px
+}
+
+.SeachPageNavBtom li {
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+    cursor: pointer;
+    color: #5f6368;
+
+}
+
+.SeachPageNavBtom li:hover {
+    color: #1a0dab;
+
+}
+
+.SeachPageNavBtom li .fa {
+    margin-right: 0.5em;
+}
+
+.tool {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tool>span:first-child:hover {
+    color: #1a0dab;
+    cursor: pointer;
+}
+
+.tool>span:nth-child(2) {
+    margin-left: 0.5em;
+    padding: 0.2em 0.5em;
+
+    cursor: pointer;
+}
+
+.tool>span:nth-child(2):hover {
+    background-color: #d7d8d9;
+}
