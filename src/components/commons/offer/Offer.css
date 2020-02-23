@@ -1,0 +1,15 @@
+.Offer {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    color: #609;
+}
+
+.Offer ul a {
+    color: #609;
+}

@@ -9,7 +9,7 @@ export default function Button({ text, bgColor, textColor, borderColor }) {
         backgroundColor: bgColor,
         color: textColor,
         padding: "0.5em 1em",
-        fontWeight: "800",
+        fontWeight: "600",
         borderRadius: "3px"
         // border: "1px solid #4485f2",
         // borderColor: borderColor

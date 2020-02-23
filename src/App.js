@@ -1,9 +1,22 @@
 import React from "react";
-import logo from "./logo.svg";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import LandingPage from "./pages/landingPage";
+
 import "./App.css";
 
 function App() {
-  return <div className="App">initial commot</div>;
+  return (
+    <Router>
+      <Switch>
+        <Route path="/search">
+          <LandingPage />
+        </Route>
+        <Route path="/">
+          <LandingPage />
+        </Route>
+      </Switch>
+    </Router>
+  );
 }
 
 export default App;
