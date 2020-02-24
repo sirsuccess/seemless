@@ -6,8 +6,8 @@
     width: 600px;
     font-size: 16px;
     margin-left: 5em;
-    position: sticky;
-    top: -1000px
+    /* position: relative; */
+    /* top: -1000px */
 }
 
 .SeachPageNavBtom li {

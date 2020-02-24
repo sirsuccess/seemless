@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { withRouter } from "react-router-dom";
 
 import SearchComp from "../SearchComp/SearchComp";
 import Button from "../../commons/button/Button";
@@ -8,7 +9,7 @@ import initialAutoCompleteData from "../../../data/initialData";
 import Logo from "../../commons/Logo";
 import "./SearchTopNav.css";
 
-export default function SearchTopNav() {
+function SearchTopNav() {
   const [showAutoComplete, setShowAutoComplete] = useState(false);
   const [autoCompleteData, setAutoCompleteData] = useState(
     initialAutoCompleteData
@@ -73,3 +74,4 @@ export default function SearchTopNav() {
     </>
   );
 }
+export default withRouter(SearchTopNav);

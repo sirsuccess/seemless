@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when called  1`] = `
+<div
+  className="SearchDisplayBody"
+>
+  <div
+    className="search-item"
+  >
+    <div
+      className="url"
+    >
+      https://www.britannica.com/animal/animal
+    </div>
+    <a
+      href="#"
+    >
+      <div
+        className="title"
+      >
+        animal | Definition, Types, & Facts | Britannica
+      </div>
+    </a>
+    <div
+      className="description"
+    >
+      Animal, (kingdom Animalia), any of a group of multicellular eukaryotic organisms (i.e., as distinct from bacteria, their deoxyribonucleic acid, or DNA, is contained in a membrane-bound nucleus). They are thought to have evolved independently from the unicellular eukaryotes.
+    </div>
+  </div>
+  <div
+    className="search-item"
+  >
+    <div
+      className="url"
+    >
+      https://en.wikipedia.org/wiki/Animal
+    </div>
+    <a
+      href="#"
+    >
+      <div
+        className="title"
+      >
+        Animal - Wikipedia
+      </div>
+    </a>
+    <div
+      className="description"
+    >
+      Animals are multicellular eukaryotic organisms that form the biological kingdom Animalia. With few exceptions, animals consume organic material, breathe oxygen, are able to move, can reproduce sexually, and grow from a hollow sphere of cells, the blastula, during embryonic development.
+    </div>
+  </div>
+  <div
+    className="search-item"
+  >
+    <div
+      className="url"
+    >
+      https://www.nationalgeographic.com/animals/
+    </div>
+    <a
+      href="#"
+    >
+      <div
+        className="title"
+      >
+        Animals - National Geographic
+      </div>
+    </a>
+    <div
+      className="description"
+    >
+      Read National Geographic's latest stories about animals.
+    </div>
+  </div>
+  <div
+    className="search-item"
+  >
+    <div
+      className="url"
+    >
+      https://www.merriam-webster.com/dictionary/animal
+    </div>
+    <a
+      href="#"
+    >
+      <div
+        className="title"
+      >
+        Animal | Definition of Animal by Merriam-Webster
+      </div>
+    </a>
+    <div
+      className="description"
+    >
+      Animal definition is - any of a kingdom (Animalia) of living things including many-celled organisms and often many of the single-celled ones (such as ...
+    </div>
+  </div>
+  <div
+    className="search-item"
+  >
+    <div
+      className="url"
+    >
+      https://www.merriam-webster.com/dictionary/animal
+    </div>
+    <a
+      href="#"
+    >
+      <div
+        className="title"
+      >
+        Code.org: Learn computer science. Change the world.
+      </div>
+    </a>
+    <div
+      className="description"
+    >
+      Every student in every school should have the opportunity to learn computer science. 40%. of U.S. students have accounts on Code.org · 20M. of our students ...‎ Sign up for Code.org·‎ View all projects...·‎Hour of Code·‎ Studio code.org 
+    </div>
+  </div>
+  <div
+    className="search-item"
+  >
+    <div
+      className="url"
+    >
+      https://www.merriam-webster.com/dictionary/animal
+    </div>
+    <a
+      href="#"
+    >
+      <div
+        className="title"
+      >
+        Code.org: Learn computer science. Change the world.
+      </div>
+    </a>
+    <div
+      className="description"
+    >
+      Every student in every school should have the opportunity to learn computer science. 40%. of U.S. students have accounts on Code.org · 20M. of our students ...‎ Sign up for Code.org·‎ View all projects...·‎Hour of Code·‎ Studio code.org 
+    </div>
+  </div>
+  <div
+    className="search-item"
+  >
+    <div
+      className="url"
+    >
+      https://www.merriam-webster.com/dictionary/animal
+    </div>
+    <a
+      href="#"
+    >
+      <div
+        className="title"
+      >
+        Animal | Definition of Animal by Merriam-Webster
+      </div>
+    </a>
+    <div
+      className="description"
+    >
+      Animal definition is - any of a kingdom (Animalia) of living things including many-celled organisms and often many of the single-celled ones (such as ...
+    </div>
+  </div>
+  <div
+    className="search-item"
+  >
+    <div
+      className="url"
+    >
+      https://www.merriam-webster.com/dictionary/animal
+    </div>
+    <a
+      href="#"
+    >
+      <div
+        className="title"
+      >
+        Code.org: Learn computer science. Change the world.
+      </div>
+    </a>
+    <div
+      className="description"
+    >
+      Every student in every school should have the opportunity to learn computer science. 40%. of U.S. students have accounts on Code.org · 20M. of our students ...‎ Sign up for Code.org·‎ View all projects...·‎Hour of Code·‎ Studio code.org 
+    </div>
+  </div>
+  <div
+    className="search-item"
+  >
+    <div
+      className="url"
+    >
+      https://www.merriam-webster.com/dictionary/animal
+    </div>
+    <a
+      href="#"
+    >
+      <div
+        className="title"
+      >
+        Code.org: Learn computer science. Change the world.
+      </div>
+    </a>
+    <div
+      className="description"
+    >
+      Every student in every school should have the opportunity to learn computer science. 40%. of U.S. students have accounts on Code.org · 20M. of our students ...‎ Sign up for Code.org·‎ View all projects...·‎Hour of Code·‎ Studio code.org 
+    </div>
+  </div>
+</div>
+`;
