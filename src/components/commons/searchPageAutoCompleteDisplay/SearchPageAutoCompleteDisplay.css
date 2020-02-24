@@ -1,0 +1,55 @@
+.AutoCompleteDisplay {
+    position: absolute;
+    bottom: 1000px;
+
+}
+
+.AutoCompleteDisplayShow1 {
+    width: 584px;
+    bottom: -342px;
+    left: 128px;
+    position: absolute;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    border: 0;
+    border-radius: 0 0 24px 24px;
+    box-shadow: 0 4px 6px 0 rgba(32, 33, 36, 0.28);
+    padding-bottom: 4px;
+    height: 400px;
+    z-index: 9999;
+}
+
+.AutoCompleteDisplayShow1 ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+    height: 250px;
+    padding: 0;
+    margin: 0;
+}
+
+.AutoCompleteDisplayShow1 ul li {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    padding: 0.5em 0;
+    color: #000;
+    padding-left: 2em;
+    margin: 0;
+}
+
+.AutoCompleteDisplayShow1 ul li:hover {
+    background-color: #eee;
+}
+
+.searchIcn {
+    margin-right: 1em;
+}
