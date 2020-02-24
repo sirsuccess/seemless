@@ -24,6 +24,7 @@ function SearchComp({
       <SearchIcon />
       <input
         type="text"
+        id="text"
         onFocus={inputfocus}
         onBlur={() => closeAutoComplete()}
         onChange={searchFunction}

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when called  1`] = `
+<div
+  className="Navbar"
+>
+  <a
+    href="http://www.google.com"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    Gmail
+  </a>
+  <a
+    href="http://www.google.com.ng/imghp"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    Images
+  </a>
+  <i
+    class="fa fa-th"
+  />
+  <div
+    style={
+      Object {
+        "backgroundColor": "#4485f2",
+        "borderRadius": "3px",
+        "color": "#fff",
+        "fontWeight": "600",
+        "padding": "0.5em 1em",
+      }
+    }
+  >
+    Sign in
+  </div>
+</div>
+`;

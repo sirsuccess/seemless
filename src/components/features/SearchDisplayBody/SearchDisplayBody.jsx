@@ -7,7 +7,7 @@ export default function SearchDisplayBody({ LogoWidth }) {
   return (
     <div className="SearchDisplayBody">
       {searchData.map((item, index) => (
-        <div className="search-item">
+        <div className="search-item" key={index}>
           <div className="url">{item.url}</div>
           <a href="#">
             <div className="title">{item.title}</div>

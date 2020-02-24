@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when called  1`] = `
+<div
+  className="SeachPageNavBtom"
+>
+  <ul>
+    <li>
+      <i
+        class="fa fa-search"
+      />
+       All
+    </li>
+    <li>
+      <i
+        class="fa fa-image"
+      />
+       Images
+    </li>
+    <li>
+      <i
+        class="fa fa-map-marker-alt"
+      />
+      Maps
+    </li>
+    <li>
+      <i
+        class="fa fa-play-circle"
+      />
+       Videos
+    </li>
+    <li>
+      <i
+        class="fa fa-newspaper"
+      />
+       News
+    </li>
+    <li>
+      <i
+        class="fa fa-ellipsis-v"
+      />
+       More
+    </li>
+  </ul>
+  <div
+    className="tool"
+  >
+    <span>
+      Settings
+    </span>
+    <span>
+      Tools
+    </span>
+  </div>
+</div>
+`;

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when called  1`] = `
+<div
+  className="Offer"
+>
+  Google offered in:
+  <ul>
+    <li>
+      <a
+        href="#"
+      >
+         Hausa
+      </a>
+    </li>
+    <li>
+      <a
+        href="#"
+      >
+        Igbo
+      </a>
+    </li>
+    <li>
+      <a
+        href="#"
+      >
+        Èdè Yorùbá
+      </a>
+    </li>
+    <li>
+      <a
+        href="#"
+      >
+        Nigerian Pidgin
+      </a>
+    </li>
+  </ul>
+</div>
+`;
