@@ -39,8 +39,16 @@ function Body({ history }) {
   }
 
   function closeAutoComplete() {
+    const text = document.querySelector("#text").value;
+
     if (showAutoComplete === true) {
       setShowAutoComplete(false);
+    }
+    if (text.length > 0) {
+      history.push({
+        pathname: "/search",
+        state: { data: "Data" }
+      });
     }
   }
 

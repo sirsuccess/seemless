@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when called  1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": undefined,
+      "borderRadius": "3px",
+      "color": undefined,
+      "fontWeight": "600",
+      "padding": "0.5em 1em",
+    }
+  }
+/>
+`;

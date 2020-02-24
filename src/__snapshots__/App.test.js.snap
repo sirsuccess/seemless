@@ -1,0 +1,443 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when called  1`] = `
+<div
+  className="App"
+>
+  <div
+    className="Navbar"
+  >
+    <a
+      href="http://www.google.com"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Gmail
+    </a>
+    <a
+      href="http://www.google.com.ng/imghp"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Images
+    </a>
+    <i
+      class="fa fa-th"
+    />
+    <div
+      style={
+        Object {
+          "backgroundColor": "#4485f2",
+          "borderRadius": "3px",
+          "color": "#fff",
+          "fontWeight": "600",
+          "padding": "0.5em 1em",
+        }
+      }
+    >
+      Sign in
+    </div>
+  </div>
+  <div
+    className="Body"
+  >
+    <div>
+      <img
+        alt="Google Logo"
+        src="./googlelogo_color.png"
+        style={
+          Object {
+            "width": undefined,
+          }
+        }
+      />
+    </div>
+    <div
+      className="SearchComp"
+    >
+      <div
+        style={
+          Object {
+            "width": undefined,
+          }
+        }
+      >
+        <i
+          class="fa fa-search"
+          style={
+            Object {
+              "width": undefined,
+            }
+          }
+        />
+      </div>
+      <input
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        type="text"
+      />
+      <div
+        style={
+          Object {
+            "width": undefined,
+          }
+        }
+      >
+        <i
+          class="fa fa-microphone"
+          style={
+            Object {
+              "width": undefined,
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="AutoCompleteDisplay"
+    >
+      <ul>
+        <li
+          onClick={[Function]}
+        >
+          <span
+            className="searchIcn"
+          >
+            <div
+              style={
+                Object {
+                  "width": undefined,
+                }
+              }
+            >
+              <i
+                class="fa fa-search"
+                style={
+                  Object {
+                    "width": undefined,
+                  }
+                }
+              />
+            </div>
+          </span>
+          animal Kingdom
+        </li>
+        <li
+          onClick={[Function]}
+        >
+          <span
+            className="searchIcn"
+          >
+            <div
+              style={
+                Object {
+                  "width": undefined,
+                }
+              }
+            >
+              <i
+                class="fa fa-search"
+                style={
+                  Object {
+                    "width": undefined,
+                  }
+                }
+              />
+            </div>
+          </span>
+          animal Kingdom
+        </li>
+        <li
+          onClick={[Function]}
+        >
+          <span
+            className="searchIcn"
+          >
+            <div
+              style={
+                Object {
+                  "width": undefined,
+                }
+              }
+            >
+              <i
+                class="fa fa-search"
+                style={
+                  Object {
+                    "width": undefined,
+                  }
+                }
+              />
+            </div>
+          </span>
+          animal Kingdom
+        </li>
+        <li
+          onClick={[Function]}
+        >
+          <span
+            className="searchIcn"
+          >
+            <div
+              style={
+                Object {
+                  "width": undefined,
+                }
+              }
+            >
+              <i
+                class="fa fa-search"
+                style={
+                  Object {
+                    "width": undefined,
+                  }
+                }
+              />
+            </div>
+          </span>
+          animal Kingdom
+        </li>
+        <li
+          onClick={[Function]}
+        >
+          <span
+            className="searchIcn"
+          >
+            <div
+              style={
+                Object {
+                  "width": undefined,
+                }
+              }
+            >
+              <i
+                class="fa fa-search"
+                style={
+                  Object {
+                    "width": undefined,
+                  }
+                }
+              />
+            </div>
+          </span>
+          animal Kingdom
+        </li>
+        <li
+          onClick={[Function]}
+        >
+          <span
+            className="searchIcn"
+          >
+            <div
+              style={
+                Object {
+                  "width": undefined,
+                }
+              }
+            >
+              <i
+                class="fa fa-search"
+                style={
+                  Object {
+                    "width": undefined,
+                  }
+                }
+              />
+            </div>
+          </span>
+          animal Kingdom
+        </li>
+        <li
+          onClick={[Function]}
+        >
+          <span
+            className="searchIcn"
+          >
+            <div
+              style={
+                Object {
+                  "width": undefined,
+                }
+              }
+            >
+              <i
+                class="fa fa-search"
+                style={
+                  Object {
+                    "width": undefined,
+                  }
+                }
+              />
+            </div>
+          </span>
+          animal Kingdom
+        </li>
+        <li
+          onClick={[Function]}
+        >
+          <span
+            className="searchIcn"
+          >
+            <div
+              style={
+                Object {
+                  "width": undefined,
+                }
+              }
+            >
+              <i
+                class="fa fa-search"
+                style={
+                  Object {
+                    "width": undefined,
+                  }
+                }
+              />
+            </div>
+          </span>
+          animal Kingdom
+        </li>
+      </ul>
+      <div
+        className="button-section"
+      >
+        <div
+          className="btn"
+        >
+          Google Search
+        </div>
+        <div
+          className="btn"
+        >
+          I'm Feeling Lucky
+        </div>
+      </div>
+    </div>
+    <div
+      className="button-section"
+    >
+      <div
+        className="btn"
+      >
+        Google Search
+      </div>
+      <div
+        className="btn"
+      >
+        I'm Feeling Lucky
+      </div>
+    </div>
+    <div
+      className="Offer"
+    >
+      Google offered in:
+      <ul>
+        <li>
+          <a
+            href="#"
+          >
+             Hausa
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+          >
+            Igbo
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+          >
+            Èdè Yorùbá
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+          >
+            Nigerian Pidgin
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div
+    className="Footer"
+  >
+    <div
+      className="Country"
+    >
+      Nigeria
+    </div>
+    <div
+      className="Settings"
+    >
+      <div
+        className="left-settings"
+      >
+        <ul>
+          <li>
+            <a
+              href="#"
+            >
+              Advertising
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+            >
+              Bussiness
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+            >
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+            >
+              How Search Works
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="right-settings"
+      >
+        <ul>
+          <li>
+            <a
+              href="#"
+            >
+              Privacy
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+            >
+              Terms
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+            >
+              Settings
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;

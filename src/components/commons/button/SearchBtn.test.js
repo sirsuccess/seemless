@@ -1,9 +1,9 @@
 import React from "react";
-
 import renderer from "react-test-renderer";
-import App from "./App";
+
+import Component from "./SearchBtn";
 
 it("renders correctly when called ", () => {
-  const tree = renderer.create(<App />).toJSON();
+  const tree = renderer.create(<Component />).toJSON();
   expect(tree).toMatchSnapshot();
 });
