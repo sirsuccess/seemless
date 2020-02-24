@@ -4,7 +4,7 @@ import { withRouter } from "react-router-dom";
 import SearchComp from "../SearchComp/SearchComp";
 import Button from "../../commons/button/Button";
 import searchData from "../../../data/searchData.json";
-import AutoCompleteDisplay from "../../commons/autoCompleteDisplay/AutoCompleteDisplay";
+import AutoCompleteDisplay from "../../commons/searchPageAutoCompleteDisplay/SearchPageAutoCompleteDisplay";
 import initialAutoCompleteData from "../../../data/initialData";
 import Logo from "../../commons/Logo";
 import "./SearchTopNav.css";
